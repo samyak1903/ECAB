@@ -1,0 +1,102 @@
+#slides {
+  display: none
+}
+
+#slides .slidesjs-navigation {
+  margin-top:3px;
+}
+#slides .slidesjs-previous {
+  margin-right: 5px;
+  float: left;
+}
+#slides .slidesjs-previous {
+  background:url(arrow_left.png) no-repeat 0px 0px;
+  position:relative;
+  left:3px;
+  top:-60%;
+  z-index:9999999999999999999;
+  width:30px;
+  height:30px;
+}
+#slides .slidesjs-next {
+  margin-right: 5px;
+  float: right;
+}
+
+#slides .slidesjs-next {
+  background:url(arrow_right.png) no-repeat 0px 0px;
+  position:relative;
+  right:-15px;
+  top:-60%;
+  z-index:9999999999999999999;
+  width:45px;
+  height:30px;
+}
+#slides .slidesjs-next[title="Next"], 
+#slides .slidesjs-previous[title="Previous"]{
+display:none;
+}
+
+.slidesjs-pagination {
+  margin: 6px 0 0;
+  float: right;
+  list-style: none;
+  position: relative;
+  z-index: 999999999999999;
+  top:-49px;
+  right:172px;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+.banner_animation #slides{
+width:97%;
+padding:1.5%;
+padding-top:2px;
+}
+.banner_animation, 
+.banner_animation #slides, 
+.banner_animation #slides .slidesjs-container, 
+.banner_animation #slides .slidesjs-control{
+height:309px !important;
+}
+#slides a:link,
+#slides a:visited {
+  color:#333;
+  text-indent:-999px;
+}
+
+#slides a:hover,
+#slides a:active {
+  color: #9e2020
+}
+
+.navbar {
+  overflow: hidden
+}
+
+#slides .slidesjs-control a img{
+width:100% !important;
+}
